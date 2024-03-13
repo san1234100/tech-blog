@@ -9,7 +9,8 @@ export default {
       colors:{
         midyellow:"#FFC700",
         lightBlue:"#4CCD99",
-        lightYellow:"#FFF455"
+        lightYellow:"#FFF455",
+        darkBlue:"#007F73"
       }
     },
   },
