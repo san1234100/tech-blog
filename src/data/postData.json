@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Javascript",
+    "author": "Shriram",
+    "date": "12 June 2024",
+    "desc": "I'm a web developer who transforms concepts into interactive digital experiences with a blend of creativity and technical process.",
+    "img": "./src/assets/images/pic1.jpg"
+  },
+  {
+    "title": "Java",
+    "author": "Monish",
+    "date": "14 June 2024",
+    "desc": "I'm a web developer who transforms concepts into interactive digital experiences with a blend of creativity and technical process.",
+    "img": "./src/assets/images/pic2.jpg"
+  },
+  {
+    "title": "FullStack web development",
+    "author": "Vignesh",
+    "date": "16 June 2024",
+    "desc": "I'm a web developer who transforms concepts into interactive digital experiences with a blend of creativity and technical process.",
+    "img": "./src/assets/images/pic3.png"
+  },
+  {
+    "title": "MySql",
+    "author": "Ram",
+    "date": "20 June 2024",
+    "desc": "I'm a web developer who transforms concepts into interactive digital experiences with a blend of creativity and technical process.",
+    "img": "./src/assets/images/pic4.png"
+  },
+  {
+    "title": "Node Js",
+    "author": "Lokesh",
+    "date": "23 June 2024",
+    "desc": "I'm a web developer who transforms concepts into interactive digital experiences with a blend of creativity and technical process.",
+    "img": "./src/assets/images/pic5.jpg"
+  },
+  {
+    "title": "React Js",
+    "author": "Sanjeev",
+    "date": "26 June 2024",
+    "desc": "I'm a web developer who transforms concepts into interactive digital experiences with a blend of creativity and technical process.",
+    "img": "./src/assets/images/pic6.png"
+  }
+]

@@ -1,7 +1,7 @@
 const PostCard = ({title='Web Development',author='Unknown',date,desc,img="./src/assets/images/pic9.jpg"}) => {
     return ( 
-        <div className="bg-white p-5 rounded-md flex select-none">
-        <img src={img} className=" w-72 h-52" alt="" />
+        <div className="bg-white mb-10 p-5 rounded-md flex select-none">
+        <img src={img} className=" w-72 h-52 rounded-md" alt="" />
         <div className="px-5">
           <h4 className="font-semibold text-2xl">{title}</h4>
         <div className="mt-1 mb-2 space-x-10 flex items-center">

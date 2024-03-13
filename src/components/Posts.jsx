@@ -1,24 +1,23 @@
 import PostCard from "./PostCard";
-
+import postData from "../data/postData.json";
 const Posts = () => {
-    const postdata={
-        title:"Javascript",
-        author:"Shriram",
-        date:"12 June 2024",
-        desc:"I'm a web developer who transforms concepts into interactive digital experiences with a blend of creativity and technical process.",
-        img:"./src/assets/images/pic1.jpg"
-    }
-    return ( 
-        <div className="w-full me-14">
+  console.log(postData);
+
+  return (
+    <div className="w-full me-14">
+      {postData.map((post) => {
+        return (
           <PostCard
-          title={postdata.title}
-          author={postdata.author}
-          date={postdata.date}
-          desc={postdata.desc}
-          img={postdata.img}
+            title={post.title}
+            author={post.author}
+            date={post.date}
+            desc={post.desc}
+            img={post.img}
           />
-        </div>
-     );
-}
- 
+        );
+      })}
+    </div>
+  );
+};
+
 export default Posts;
