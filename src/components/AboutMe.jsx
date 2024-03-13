@@ -1,6 +1,9 @@
+import FeaturedPost from "./FeaturedPost";
+
 const AboutMe = () => {
     return ( 
-        <div className="bg-white select-none p-5 rounded-lg max-w-md ms-auto h-fit pb-10">
+       <div>
+        <div className="bg-white select-none p-5 rounded-lg max-w-2xl ms-auto h-fit pb-10">
              <div className="text-3xl font-medium py-3">About Me</div>
              <img src="./src/assets/images/web-development1.png" className="w-full rounded-md" alt="" />
              <h1 className="text-center text-2xl font-medium pt-3">SANJEEV U</h1>
@@ -53,6 +56,8 @@ const AboutMe = () => {
                 </div>
             </div>
         </div>
+        <FeaturedPost/>
+       </div>
      );
 }
  

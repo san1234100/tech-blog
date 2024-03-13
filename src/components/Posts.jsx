@@ -1,8 +1,6 @@
 import PostCard from "./PostCard";
 import postData from "../data/postData.json";
 const Posts = () => {
-  console.log(postData);
-
   return (
     <div className="w-full me-14">
       {postData.map((post) => {

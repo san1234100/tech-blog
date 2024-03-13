@@ -12,7 +12,7 @@ function App() {
      <Nav/>
      <Hero/>
      <div className="mt-20 px-20 flex justify-around">
-      <Posts/>
+     <Posts/>
      <AboutMe/>
      </div>
     
