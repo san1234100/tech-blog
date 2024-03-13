@@ -9,7 +9,7 @@ const AboutMe = () => {
                 I'm a web developer who transforms concepts into interactive digital experiences with a blend of creativity and technical prowess. Passionate about crafting elegant solutions, I thrive on the challenge of merging design and functionality to create impactful online presences.
             </p>
             <h4 className="font-semibold text-2xl py-5">Social networks</h4>
-            <div className="grid grid-cols-2 gap-y-10 items-center">
+            <div className="grid grid-cols-2 gap-10 w-fit mx-auto items-center">
                 {/* card 1 - instagram */}
                 <div className="flex items-center space-x-3">
                    <div className="w-16 h-16 bg-[#833AB4] rounded-md text-white flex items-center justify-center">
