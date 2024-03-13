@@ -1,8 +1,10 @@
+import TheHeader from "./components/TheHeader"
 
 function App() {
   return (
     <>
-     <h1>Hello</h1>
+     <TheHeader/>
+     <div className="h-0.5 bg-lightBlue mx-20"></div>
     </>
   )
 }
