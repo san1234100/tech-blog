@@ -1,10 +1,12 @@
 import postData from "../data/postData.json";
 const FeaturedPost = () => {
-  const { title, img, desc, author, date } = postData[0];
+ 
   return (
     <div className="bg-white mt-10 select-none p-5 rounded-lg max-w-2xl ms-auto h-fit pb-10">
       <h4 className="text-xl font-medium">Featured Posts</h4>
-      <div className="bg-white mb-10 p-5 rounded-md flex select-none">
+      {postData.map((post,index)=>{
+         const { title, img, desc, author, date } = postData[index];
+        return index<4 ? <div className="bg-white p-2 rounded-md flex select-none">
         <img src={img} className=" w-20 h-20 rounded-md" alt="" />
         <div className="px-5">
           <h4 className="font-semibold text-xs">{title}</h4>
@@ -35,7 +37,8 @@ const FeaturedPost = () => {
            ` ${desc.slice(0,68) }...`
           }</p>
         </div>
-      </div>
+      </div> : ''
+      })}
     </div>
   );
 };
