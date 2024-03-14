@@ -1,4 +1,5 @@
 import AboutMe from "./components/AboutMe"
+import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Nav from "./components/Nav"
 import Posts from "./components/Posts"
@@ -15,7 +16,7 @@ function App() {
      <Posts/>
      <AboutMe/>
      </div>
-    
+     <Footer/>
     </>
   )
 }
