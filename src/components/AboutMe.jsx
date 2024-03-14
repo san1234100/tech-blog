@@ -1,4 +1,5 @@
 import FeaturedPost from "./FeaturedPost";
+import SubcribeNewsLetter from "./SubcribeNewsLetter";
 
 const AboutMe = () => {
     return ( 
@@ -57,6 +58,7 @@ const AboutMe = () => {
             </div>
         </div>
         <FeaturedPost/>
+        <SubcribeNewsLetter/>
        </div>
      );
 }
