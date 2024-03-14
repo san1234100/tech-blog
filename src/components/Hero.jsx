@@ -1,6 +1,6 @@
 const Hero = () => {
     return ( 
-        <section className="flex space-x-10 items-center">
+        <section className="flex space-x-10 items-center mx-10">
               <img src="./src/assets/images/web-development1.png" className="ms-10 w-[50%] rounded" alt="" />
               <div className="text-white">
                 <h1 className="text-4xl font-semibold">Welcome, to <span className="text-midyellow">Tech Blog</span></h1>
