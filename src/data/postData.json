@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "Javascript",
     "author": "Shriram",
     "date": "12 June 2024",
@@ -7,6 +8,7 @@
     "img": "./src/assets/images/pic1.jpg"
   },
   {
+    "id": 2,
     "title": "Java",
     "author": "Monish",
     "date": "14 June 2024",
@@ -14,6 +16,7 @@
     "img": "./src/assets/images/pic2.jpg"
   },
   {
+    "id": 3,
     "title": "FullStack web development",
     "author": "Vignesh",
     "date": "16 June 2024",
@@ -21,6 +24,7 @@
     "img": "./src/assets/images/pic3.png"
   },
   {
+    "id": 4,
     "title": "MySql",
     "author": "Ram",
     "date": "20 June 2024",
@@ -28,6 +32,7 @@
     "img": "./src/assets/images/pic4.png"
   },
   {
+    "id": 5,
     "title": "Node Js",
     "author": "Lokesh",
     "date": "23 June 2024",
@@ -35,6 +40,7 @@
     "img": "./src/assets/images/pic5.jpg"
   },
   {
+    "id": 6,
     "title": "React Js",
     "author": "Sanjeev",
     "date": "26 June 2024",

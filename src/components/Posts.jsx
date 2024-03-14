@@ -6,6 +6,7 @@ const Posts = () => {
     {postData.map((post) => {
         return (
           <PostCard
+            id={post.id}
             title={post.title}
             author={post.author}
             date={post.date}

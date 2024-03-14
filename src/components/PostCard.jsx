@@ -1,6 +1,7 @@
-const PostCard = ({title='Web Development',author='Unknown',date,desc,img="./src/assets/images/pic9.jpg"}) => {
+import { Link } from "react-router-dom";
+const PostCard = ({title='Web Development',id,author='Unknown',date,desc,img="./src/assets/images/pic9.jpg"}) => {
     return ( 
-        <div className="bg-white mb-10 p-5 rounded-md flex select-none">
+        <Link to={`/postpage/${id}`} className="bg-white mb-10 p-5 rounded-md flex select-none">
         <img src={img} className=" w-72 h-52 rounded-md" alt="" />
         <div className="px-5">
           <h4 className="font-semibold text-2xl">{title}</h4>
@@ -16,7 +17,7 @@ const PostCard = ({title='Web Development',author='Unknown',date,desc,img="./src
          {desc}
          </p>
         </div>
-      </div>
+      </Link>
      );
 }
  
