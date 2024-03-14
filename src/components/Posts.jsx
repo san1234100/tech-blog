@@ -2,8 +2,8 @@ import PostCard from "./PostCard";
 import postData from "../data/postData.json";
 const Posts = () => {
   return (
-    <div className="w-full me-14">
-      {postData.map((post) => {
+   <>
+    {postData.map((post) => {
         return (
           <PostCard
             title={post.title}
@@ -14,7 +14,7 @@ const Posts = () => {
           />
         );
       })}
-    </div>
+   </>
   );
 };
 

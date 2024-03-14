@@ -3,6 +3,7 @@ import Footer from "./components/Footer"
 import Nav from "./components/Nav"
 import TheHeader from "./components/TheHeader"
 import HomePage from "./pages/HomePage"
+import PostPage from "./pages/PostPage"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
      <Nav/>
      <Routes>
       <Route path="/" element={<HomePage/>} />
+      <Route path="/posts" element={<PostPage/>} />
     </Routes>
      <Outlet/>
      <Footer/>

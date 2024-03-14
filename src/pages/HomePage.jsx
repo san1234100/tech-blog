@@ -7,7 +7,9 @@ const HomePage = () => {
     <>
       <Hero />
       <div className="mt-20 px-20 flex justify-around">
+        <div className="me-10">
         <Posts />
+        </div>
         <AboutMe />
       </div>
     </>
